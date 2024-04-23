@@ -1,8 +1,17 @@
 .trackRow {
   display: flex;
   align-items: center;
-  height: 5rem;
-  border-bottom: 1px solid #333;
+  justify-content: space-between;
+  height: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.trackRow:hover > img {
+  opacity: 0.2;
+}
+
+.trackRow:focus-within > img {
+  opacity: 0.2;
 }
 
 .trackRow:last-child {

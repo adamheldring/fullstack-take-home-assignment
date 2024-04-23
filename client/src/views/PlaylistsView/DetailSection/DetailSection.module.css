@@ -1,0 +1,13 @@
+.playlistTrack {
+  position: relative;
+  cursor: pointer;
+}
+
+.playlistTrack:hover .trackCoverArt {
+    opacity: 0.2;
+}
+
+.playlistTrack:focus-within .trackCoverArt {
+    opacity: 0.2;
+}
+
