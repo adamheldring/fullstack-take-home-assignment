@@ -63,7 +63,7 @@ function App() {
   return (
     <Layout
       activeView={activeView}
-      updateView={(view: View) => setActiveView(view)}
+      updateView={setActiveView}
       currentTrack={currentTrack}
       playNextTrack={playNextTrack}
     >
